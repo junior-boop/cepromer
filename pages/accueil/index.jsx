@@ -37,8 +37,8 @@ export default function Accueil(){
                 <div style = {{ display : 'flex', 'flex-wrap' : 'wrap', "justify-content" : 'center', gap : '20px'}}>
                 <FiliereComponent color={'#00D8FF'} titre = 'Hygienes & Assainissement ' logo={hy_as} url={'/filieres/hyg-as'} />
                 <FiliereComponent color={'#F24141'} titre = 'Hydraulique Rural' logo={hyd_ru} url={'/filieres/hyd-ru'} />
-                <FiliereComponent color={'#527D24'} titre = 'Production Végétal' logo={pr_ve} />
-                <FiliereComponent color={'#E29D15'} titre = 'Production Animale' logo={pro_a} />
+                <FiliereComponent color={'#527D24'} titre = 'Production Végétal' logo={pr_ve} url={'/filieres/prod-veg'}/>
+                <FiliereComponent color={'#E29D15'} titre = 'Production Animale' logo={pro_a} url={'/filieres/prod-an'}/>
                 </div>
                 <A href='/' style={{width : '70vmin', display : 'block', margin: '2rem auto', }}>
                     <button style={{ width : '100%', "justify-content" : 'center', "font-size" : 'calc(10px + 1vmin)'}}>
