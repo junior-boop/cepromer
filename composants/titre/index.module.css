@@ -1,0 +1,6 @@
+.titre {
+    font-size: calc(36px + 1vmin);
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 1;
+}

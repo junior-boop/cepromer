@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  height: 9vmin;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid silver;
+}
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0.9vmin;
+  height: 120%;
+  aspect-ratio: 1;
+  background-color: white;
+  border-radius: 1vmin;
+  border: 1px solid silver;
+}
+.nav .menu {
+  display: flex;
+  gap: 2rem;
+}
+.nav .menu ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.nav .menu ul li > a {
+  color: #363636;
+}/*# sourceMappingURL=index.module.css.map */

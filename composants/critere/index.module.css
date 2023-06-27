@@ -1,0 +1,37 @@
+.critere {
+    position: relative;
+    width : 773px;
+    margin: 0 auto;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 1rem;
+    background-color: white;
+    z-index: 5;
+}
+
+.blockCritete {
+    position: relative;
+    width: 773px;
+    margin: auto;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockCritete > div:last-child {
+    position: absolute;
+    width: 805px;
+    border-radius: 1rem;
+    margin: auto;
+    height: 100%;
+    background-color: #FFDF9F;
+    top: 1rem;
+    z-index: 1;
+}
+.critere .element {
+    padding: 24px ;
+    font-size: calc(10px + .8vmin);
+}
+
+.critere .element + .element {
+    border-top : 1px solid rgb(230, 230, 230)
+}

@@ -1,0 +1,44 @@
+.filiere {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 1rem ;
+    padding: 1rem 1.5rem;
+    height: 500px;
+    justify-content: space-between;
+
+    .logo{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .titre {
+         font-size: 28px;
+         line-height: 1;
+         font-weight: 600;
+         margin-bottom: 10px;
+         color: white;
+         width: 90%;
+    }
+
+    .plus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.411);
+            color: white;
+        }
+    }
+}

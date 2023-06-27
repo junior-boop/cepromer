@@ -1,0 +1,32 @@
+.footer {
+    padding: 4rem;
+    border-top: 1px solid silver;
+}
+
+.footerContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    width: 150px;
+    height: 150px;
+}
+
+.logo > div {
+    width: 90%;
+    aspect-ratio: 1;
+}
+
+.sociaux {
+    display: flex;
+}
+
+.sociaux > div {
+    display: flex;
+}

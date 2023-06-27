@@ -1,0 +1,14 @@
+.partenaire_Container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.partenaire_Container .partenaire {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}

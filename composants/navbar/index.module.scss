@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    height: 9vmin;
+    justify-content: center;
+    position : fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border-bottom:1px solid silver ;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position : relative ;
+        top: .9vmin;
+        height: 120%;
+        aspect-ratio: 1;
+        background-color: white;
+        border-radius: 1vmin;
+        border: 1px solid silver;
+    }
+
+    .menu {
+        display: flex;
+        gap : 2rem;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            
+            li > a {
+                color: #363636;
+            }
+        }
+    }
+}
