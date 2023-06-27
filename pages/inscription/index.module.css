@@ -1,0 +1,187 @@
+.inscriptionHeader {
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.bloc {
+  padding: 12px 0;
+  margin-top: 64px;
+}
+.bloc .titre {
+  position: relative;
+}
+.bloc .titre span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: -17px;
+  left: -90px;
+  border-radius: 50%;
+  background-color: #4C9B1F;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.input {
+  margin: auto;
+  margin-bottom: 12px;
+}
+.input label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.input input {
+  width: 700px;
+  height: 40px;
+  padding: 12px 0px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid silver;
+}
+.input select {
+  width: 700px;
+  height: 40px;
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  padding: 12px;
+}
+
+.check {
+  padding: 16px 24px;
+  width: 700px;
+  border: 1px solid silver;
+  transition: all ease-in-out 0.3s;
+  height: 70px;
+  overflow: hidden;
+}
+.check > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.check[data-checked=false] {
+  height: 350px;
+}
+.check > div + .note {
+  margin-top: 24px;
+}
+.check > .note > div:first-child {
+  background-color: rgb(241, 241, 241);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.check label {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.check .input {
+  width: 100%;
+}
+.check .input input {
+  width: 100%;
+}
+.check .status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 35px;
+  font-size: 20px;
+  position: relative;
+  right: 70px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.check .inputCheck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 66px;
+  position: absolute;
+  right: -10px;
+  visibility: hidden;
+}
+.check .inputCheck::before {
+  content: "";
+  width: 58px;
+  height: 50%;
+  border: 1px solid #ff1818;
+  background-color: #ffb7b7;
+  visibility: visible;
+  border-radius: 50px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.check .inputCheck:checked::before {
+  background-color: #ccffad;
+  border-color: #4C9B1F;
+}
+.check .inputCheck::after {
+  content: "";
+  aspect-ratio: 1;
+  height: 50%;
+  background-color: #ff1818;
+  visibility: visible;
+  border-radius: 50px;
+  position: absolute;
+  transform: translateX(-12px);
+  transition: all 0.3s ease-in-out;
+}
+.check .inputCheck:checked::after {
+  transform: translateX(14px);
+  background-color: #4C9B1F;
+}
+
+.radio {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+.radio input {
+  position: relative;
+  visibility: hidden;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.radio input::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid silver;
+  position: absolute;
+  visibility: visible;
+}
+.radio input::after {
+  content: url('<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="white" d="m10.5 16.2l-4-4l1.4-1.4l2.6 2.6l5.6-5.6l1.4 1.4l-7 7Z"/></svg>');
+  width: 22px;
+  height: 22px;
+  visibility: visible;
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgb(0, 119, 255);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.radio input:checked::after {
+  opacity: 1;
+}
+.radio + .radio {
+  margin-top: 12px;
+}
+.radio + .input {
+  margin-top: 12px;
+}/*# sourceMappingURL=index.module.css.map */

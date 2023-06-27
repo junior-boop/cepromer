@@ -1,0 +1,149 @@
+.defi {
+  width: 70vmin;
+  margin: auto;
+}
+.defi p {
+  font-size: calc(10px + 0.8vmin);
+  text-align: center;
+}
+
+.value {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.column {
+  width: 550px;
+}
+.column h1 {
+  margin: 0;
+}
+.column p {
+  margin: 0;
+  color: #313131;
+}
+.column > div {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.column > div > p {
+  margin-top: 1rem;
+  font-size: calc(10px + 0.8vmin);
+}
+.column > div:first-child {
+  min-height: 310px;
+}
+.column > div:last-child {
+  margin-top: 1rem;
+}
+.column > div:last-child p {
+  height: 170px;
+}
+.column .ZoneImage {
+  height: 330px;
+  width: 550px;
+}
+.column .ZoneImage > div:first-child {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.column .ZoneImage > div[data-left=true] {
+  transform: translateX(-4rem);
+}
+
+.centeryou {
+  width: 80vmin;
+  margin: 0 auto;
+}
+.centeryou .item {
+  padding: 0 1.7rem;
+  border: 2px solid #B7EB99;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.centeryou .item .puce {
+  position: absolute;
+  top: 0.2rem;
+  left: -75px;
+  width: 60px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4C9B1F;
+  color: white;
+}
+.centeryou .item .puce > div {
+  font-size: 1.7rem;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.centeryou .item + .item {
+  margin-top: 0.5rem;
+}
+.centeryou p {
+  text-align: justify;
+  font-size: calc(10px + 1.2vmin);
+}
+.centeryou > p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.plusInfos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+.plusInfos > div:first-child {
+  width: 80%;
+  aspect-ratio: 16/9;
+  border: 1px solid rgb(233, 233, 233);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+.plusInfos > div:last-child {
+  width: 30%;
+  height: 80%;
+  background-color: #4C9B1F;
+  border-radius: 1rem;
+  position: absolute;
+  right: 0;
+  padding: 2rem;
+  color: white;
+}
+.plusInfos > div:last-child > div {
+  font-size: 48px;
+  line-height: 1;
+  color: white;
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+.plusInfos > div:last-child span {
+  display: block;
+  font-size: 24px;
+  margin-top: 0;
+  line-height: 1.3;
+}
+.plusInfos > div:last-child .lien {
+  display: flex;
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+  width: 70px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  color: #4C9B1F;
+}/*# sourceMappingURL=index.module.css.map */
